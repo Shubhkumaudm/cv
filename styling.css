@@ -1,0 +1,49 @@
+body {
+    background-image: url("images/bg.jpg");
+}
+.profile {
+    height: 250px;
+    width: 250px;
+}
+.section_header{
+    position: relative;
+    max-width: 500px;
+    max-height: 100px;
+    text-align: center;
+
+}
+
+.section_header:before{
+    content:"";
+    display: block ;
+    height: 2px;
+    width: 120px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    background: rgb(205, 133, 44);
+}
+.section_header:after{
+    content:"";
+    display: block ;
+    height: 2px;
+    width: 120px;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    background: rgb(133, 158, 42);
+}
+
+.leftpadded{
+    margin-left: 25px;
+}
+
+.test{
+    height: 100px;
+    width: 100px;
+    background: burlywood;
+    border-style: inset none none inset;
+    border-radius: 10px;
+    border-top-color: blueviolet;
+    
+}
